@@ -1,0 +1,17 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< clinic.programmming:maven-quick-start >----------------
+[INFO] Building maven-quick-start 1.1
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ maven-quick-start ---
+[INFO] clinic.programmming:maven-quick-start:jar:1.1
+[INFO] +- org.apache.commons:commons-lang3:jar:3.4:compile
+[INFO] \- junit:junit:jar:4.13-beta-2:test
+[INFO]    \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.952 s
+[INFO] Finished at: 2019-03-28T12:30:59+03:00
+[INFO] ------------------------------------------------------------------------
