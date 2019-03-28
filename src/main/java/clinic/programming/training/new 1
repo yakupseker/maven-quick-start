@@ -1,0 +1,19 @@
+job('NodeJS example') {
+	scm{
+		git('github.com/wardviaene/docker-demo.git') {node -> // is hudson.plugins.git.GitSCM
+			node / gitConfigName ('DSL User')
+			node / gitCondigEmail('example@gmail.com')
+		
+		}	
+	}
+	triggers {
+		scm('H/5 * * * *')
+		
+	}	
+	wrappers {
+		nodejs('nodejs') // 
+	}
+	steps {
+		shell('npm install')
+	}
+}	
